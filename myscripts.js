@@ -71,6 +71,9 @@ function ftoCelsius(f) {
 }
 function submitSearch() {
     var searchLocation = document.getElementById("search-bar").value;
+    document.getElementById("convert-units-btn").innerHTML = "F°";
+    document.getElementById("button-container").firstChild.style = "color:white";
+    document.getElementById("f-letter").style = "color:rgb(221, 131, 70)";
     console.log(searchLocation);
     callWeatherApi(searchLocation);
 }
