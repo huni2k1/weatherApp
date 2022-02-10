@@ -7,7 +7,7 @@ body {
     background: white;
     font-family: "Work Sans", sans-serif;
     font-size: 1.5em;
-    background-color: #e5ebeb;
+    background-color: #ffffff;
     color: #403e39;
 }
 #main-content {
@@ -94,7 +94,7 @@ body {
     opacity: 1;
     transform: translateY(0px);
     font-family: "Work Sans", sans-serif;
-    background-color: #e5ebeb;
+    background-color: #ffffff;
     color: #403e39;
 }
 #result-content {
